@@ -1,0 +1,44 @@
+.sidebar {
+  background: #22222E;
+  width: 18%;
+  height: 90vh;
+  padding: 5vh 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar header img{
+  object-fit: contain;
+}
+
+.sidebar .logoBox{
+  width: 100px;
+  height: 50px;
+  position: relative;
+}
+
+.sidebar header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.sidebar nav{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar nav a{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.sidebar nav a svg{
+  font-size: 1.2rem;
+}
